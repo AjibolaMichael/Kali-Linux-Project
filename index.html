@@ -10,14 +10,18 @@
     <header>
         <div class="container">
             <div class="header-content">
-                <a href="kail-linux.html">
-                    <div class="logo">
+                <div class="logo">
                     <div class="logo-icon">⚡</div>
                     <h1>Kali <span>Linux</span> Mastery</h1>
                 </div>
-                </a>
-               
-                <nav>
+                
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle navigation menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                
+                <nav id="mainNav">
                     <ul>
                         <li><a href="#home" class="active">Home</a></li>
                         <li><a href="#phases">Learning Path</a></li>
@@ -40,8 +44,10 @@
         <div class="container">
             <h2>Master Kali Linux: From Beginner to Advanced</h2>
             <p>A comprehensive, structured learning path for ethical hacking, penetration testing, and cybersecurity mastery using Kali Linux.</p>
-            <a href="#phases" class="btn">Start Learning</a>
-            <a href="#warning" class="btn btn-outline">Legal Warning</a>
+            <div class="hero-buttons">
+                <a href="#phases" class="btn">Start Learning</a>
+                <a href="#warning" class="btn btn-outline">Legal Warning</a>
+            </div>
         </div>
     </section>
 
@@ -548,6 +554,5 @@
     </footer>
 
     <script src="kail-linux.js"></script>
-
 </body>
 </html>
